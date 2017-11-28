@@ -12,6 +12,7 @@ def solve(a0, a1, a2, b0, b1, b2):
         elif pair[0] < pair[1]:
             comp_b += 1
         else:
+            # used to make an empty block
             pass
 
     result = [comp_a, comp_b]
