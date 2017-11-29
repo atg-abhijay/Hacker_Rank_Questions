@@ -7,6 +7,7 @@ def birthdayCakeCandles(n, ar):
             num_tallest += 1
 
     return num_tallest
+    # done in O(n) time
 
 def main():
     n = int(raw_input().strip())
